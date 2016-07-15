@@ -1,2 +1,2 @@
-# adv-r_reading_group
-Advanced R Reading Group Personal Materials
+# Advanced R Reading Group
+Personal materials for BCCRC Statistics Reading Group on the book "Advanced R" by Hadley Wickham.
