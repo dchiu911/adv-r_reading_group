@@ -42,7 +42,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ```{r}
 diagonal <- function(x) {
-  return(unname(unlist(x)[which(row(x) - col(x) == 0)]))
+  return(x[row(x) == col(x)])
 }
 x <- matrix(1:25, nrow = 5)
 diagonal(x)
