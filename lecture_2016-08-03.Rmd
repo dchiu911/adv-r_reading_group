@@ -1,0 +1,46 @@
+---
+title: "What Statistical Method is best for your Study?"
+author: "Derek Chiu, MSc."
+date: "August 3, 2016"
+output: 
+  beamer_presentation: 
+    colortheme: wolverine
+    theme: CambridgeUS
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Introduction
+
+- **Statistics** is the discipline of collecting, analyzing, and reporting data
+- Important component of Methods & Results sections of a paper
+- Need to adequately understand how and why things work
+- The "best" statistical method
+    - Appropriate given the data structure
+    - Address complexities of data
+    - Answer the research question
+    
+# Data Format
+
+- Assume rectangular data where rows are observations and columns are variables
+- Analyzing in Excel, R, etc.
+
+# 1. Missing Data
+
+- Complete case analysis: keep only observations with no missing values across all variables
+- Complete variable analysis: keep only variables with no missing values across all observations
+- Percent of missingness
+- Mean Imputation: fill in missing value with mean of non-missing values
+- Multiple Imputation
+
+# 2. Correct Data Structures
+
+- Do you have quantitative and qualitative variables correctly defined in your data?
+- Data cleaning is often a tedious yet necessary first step before analysis
+- Example: dichotomization
+
+# 3. One or Many
+
+- 
